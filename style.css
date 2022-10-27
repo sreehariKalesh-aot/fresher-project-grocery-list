@@ -1,0 +1,73 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+.section-center{
+    max-width: 35rem;
+    margin: auto;
+    box-shadow: 0px -1.24046px 15.7716px rgba(0, 0, 0, 0.0945694), 0px -0.608097px 7.73152px rgba(0, 0, 0, 0.0754306), 0px -0.240442px 3.05705px rgba(0, 0, 0, 0.0527031);
+    border-radius: 1%;
+    margin-top: 128px;
+    padding: 32px;
+    padding-top: 15px;
+}
+
+h3{
+    font-weight: bolder;
+    letter-spacing:0.25rem;
+    font: "Roboto", sans-serif;
+}
+button{
+    border: none;
+    background-color: white;
+}
+
+.grocery-item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1px;
+}
+
+.bi-trash{
+    color: #E66B6B;
+}
+
+.bi-pencil-square{
+    color: #6BE68B;
+}
+.submit-btn{
+    background-color: #49a6e9;
+    border-radius: 0 8px 8px 0;
+    width: 20%;
+    color: white;
+    
+}
+#grocery{
+    width: 85%;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #F1F5F8;
+}
+.searchdiv{
+    height: 33px;
+    background-color: #F1F5F8;
+    border: none !important;
+
+}
+
+.alert{
+    height: 20px;
+    text-align: center;
+    letter-spacing: 0.25rem;
+}
+
+.clear-btn{
+    color: hsl(360, 71%, 66%);
+    letter-spacing:0.25rem ;
+}
+
+.grocery-list{
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.title{
+    letter-spacing: 2px;
+}
